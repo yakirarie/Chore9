@@ -34,8 +34,8 @@
 
     void TestCase :: print()
     {
-        cout<<name<<": "<<failed<<" failed, "<<passed<<" passed, "<<failed+passed<<" total."<<endl;
-        cout<<"---"<<endl;
+        *os<<name<<": "<<failed<<" failed, "<<passed<<" passed, "<<failed+passed<<" total."<<endl;
+        *os<<"---"<<endl;
     }
 
     /**
